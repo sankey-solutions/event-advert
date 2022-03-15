@@ -7,6 +7,19 @@
   pointer-events: none;
 }
 
+.circle-wrapper {
+  background-color: rgba(2, 95, 121, 0.25);
+  border-radius: 100%;
+}
+
+.label {
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  font-size: 1.25rem;
+  font-weight: 900;
+  letter-spacing: 3px;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -14,7 +27,8 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background: linear-gradient(120deg, #076d99, #2896a5, #2eafb5, #075468);
+  ;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -32,6 +46,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
