@@ -5,7 +5,7 @@ import { useCustomCountdown } from '../hooks/useCountdown';
 import './Home.scss'
 import Landing from './landing/Landing';
 
-let countDownDate = "March 16, 2022 22:00:00"
+let countDownDate = "March 16, 2022 23:00:00"
 
 export default function Home() {
     const [ days, hours, minutes, seconds, remainingTime ] = useCustomCountdown(new Date(countDownDate));
@@ -13,7 +13,7 @@ export default function Home() {
     return (
         <div className='container'>
             {
-                !(days + hours + minutes + seconds <= 0) ?
+                (days + hours + minutes + seconds <= 0) ?
                     <Countdown
                         title="We are Coming Soon"
                         message={[

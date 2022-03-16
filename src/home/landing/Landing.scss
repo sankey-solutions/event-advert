@@ -47,10 +47,14 @@ h1 {
 
     /* For mobile phones: */
     img {
-        height: 50vh;
+        height: 40vh;
         width: 50vw;
         object-fit: contain;
         align-self: center;
+    }
+
+    h1{
+        font-size: larger;
     }
 
     .msg{
