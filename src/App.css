@@ -7,11 +7,6 @@
   pointer-events: none;
 }
 
-.circle-wrapper {
-  background-color: rgba(2, 95, 121, 0.25);
-  border-radius: 100%;
-}
-
 .label {
   font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
@@ -28,7 +23,6 @@
 
 .App-header {
   background: linear-gradient(120deg, #076d99, #2896a5, #2eafb5, #075468);
-  ;
   min-height: 100vh;
   display: flex;
   flex-direction: column;

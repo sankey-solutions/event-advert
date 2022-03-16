@@ -1,0 +1,30 @@
+img{
+    height: 100vh;
+    width: 50vw;
+    object-fit: contain;
+}
+
+.right-image {
+    display: flex;
+    align-self: flex-end;
+}
+
+.card-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-desc {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    // background-color: red;
+    justify-content: center;
+    align-items: flex-start;
+    padding-inline: 2vw;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+}
