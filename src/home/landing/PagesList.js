@@ -8,32 +8,27 @@ import Gif5 from '../../assets/Gif5.gif'
 export const pages = [
     {
         input: IntroGIF,
-        title: 'A New Event',
-        message: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae libero sint doloribus commodi nostrum accusantium totam autem, esse obcaecati impedit a exercitationem dolorem quaerat. Nam quibusdam rem repellendus quo atque!'
+        title: ['Presenting the SPECTACULAR Event - ', <strong>TECHNOTHON</strong>],
+        message: 'Let\'s build a robust solution. We all have our own suggestions, ideas, beliefs, and thoughts that merely remain in our minds, and never got a chance to implement them. So, this is an opportunity for YOU to showcase ideas and do real-life implementation projects that will enhance the process of Sankey\'s internal systems'
     },
     {
         input: Gif1,
-        title: 'A New Event',
-        message: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae libero sint doloribus commodi nostrum accusantium totam autem, esse obcaecati impedit a exercitationem dolorem quaerat. Nam quibusdam rem repellendus quo atque!'
+        title: 'About the Event',
     },
     {
         input: Gif2,
-        title: 'A New Event',
-        message: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae libero sint doloribus commodi nostrum accusantium totam autem, esse obcaecati impedit a exercitationem dolorem quaerat. Nam quibusdam rem repellendus quo atque!'
+        title: ['What ', <strong>YOU</strong>, ' will get to do in the event']
     },
     {
         input: Gif3,
-        title: 'A New Event',
-        message: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae libero sint doloribus commodi nostrum accusantium totam autem, esse obcaecati impedit a exercitationem dolorem quaerat. Nam quibusdam rem repellendus quo atque!'
+        title: 'Take a Chance to explore Yourselves'
     },
     {
         input: Gif4,
-        title: 'A New Event',
-        message: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae libero sint doloribus commodi nostrum accusantium totam autem, esse obcaecati impedit a exercitationem dolorem quaerat. Nam quibusdam rem repellendus quo atque!'
+        title: ['Get ready to ', <strong>WIN</strong>]
     },
     {
         input: Gif5,
-        title: 'A New Event',
-        message: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae libero sint doloribus commodi nostrum accusantium totam autem, esse obcaecati impedit a exercitationem dolorem quaerat. Nam quibusdam rem repellendus quo atque!'
+        title: 'Reward for YOUR efforts'
     },
 ]

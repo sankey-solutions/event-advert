@@ -13,7 +13,7 @@ export default function Countdown ({ title, message, remainingTime, timeProps })
         <>
             <p className='title'>{title}</p>
 
-            <span className='message'>{message}</span>
+            <p className='message'>{message}</p>
 
             <div className='cd-container'>
                 <CountdownTimer
