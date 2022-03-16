@@ -13,7 +13,7 @@ export default function Home() {
     return (
         <div className='container'>
             {
-                (days + hours + minutes + seconds <= 0) ?
+                !(days + hours + minutes + seconds <= 0) ?
                     <Countdown
                         title="We are Coming Soon"
                         message={[
