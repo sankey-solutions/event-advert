@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import './Countdown.scss'
 import CountdownTimer from './CountdownTimerComponent';
 
@@ -6,7 +6,7 @@ const minuteSeconds = 60;
 const hourSeconds = 3600;
 const daySeconds = 86400;
 
-export default function ({ title, message, remainingTime, timeProps }) {
+export default function Countdown ({ title, message, remainingTime, timeProps }) {
     let [days, hours, minutes, seconds] = timeProps
 
     return (

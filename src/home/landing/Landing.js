@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react'
+import React, { useRef } from 'react'
 import { useSpring, animated as a } from "react-spring";
 
 import { pages } from './PagesList'

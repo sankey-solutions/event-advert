@@ -1,11 +1,11 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import Countdown from './countdown/Countdown';
 import { useCustomCountdown } from '../hooks/useCountdown';
 
 import './Home.scss'
 import Landing from './landing/Landing';
 
-let countDownDate = "March 16, 2022 19:00:00"
+let countDownDate = "March 16, 2022 19:45:00"
 
 export default function Home() {
     const [ days, hours, minutes, seconds, remainingTime ] = useCustomCountdown(new Date(countDownDate));

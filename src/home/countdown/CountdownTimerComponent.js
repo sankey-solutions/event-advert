@@ -9,7 +9,7 @@ const timerProps = {
     colors: "#FFFFFF"
 };
 
-export default function ({ renderElement, label, timeValue, ...componentProps }) {
+export default function CountdownTimerComponent ({ renderElement, label, timeValue, ...componentProps }) {
     return (
         <div style={{ flexDirection: "row" }}>
             <div className='circle-wrapper'>
