@@ -13,27 +13,27 @@ export const pages = [
     },
     {
         input: Gif1,
-        title: '',
-        message: ''
+        title: 'A New Event',
+        message: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae libero sint doloribus commodi nostrum accusantium totam autem, esse obcaecati impedit a exercitationem dolorem quaerat. Nam quibusdam rem repellendus quo atque!'
     },
     {
         input: Gif2,
-        title: '',
-        message: ''
+        title: 'A New Event',
+        message: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae libero sint doloribus commodi nostrum accusantium totam autem, esse obcaecati impedit a exercitationem dolorem quaerat. Nam quibusdam rem repellendus quo atque!'
     },
     {
         input: Gif3,
-        title: '',
-        message: ''
+        title: 'A New Event',
+        message: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae libero sint doloribus commodi nostrum accusantium totam autem, esse obcaecati impedit a exercitationem dolorem quaerat. Nam quibusdam rem repellendus quo atque!'
     },
     {
         input: Gif4,
-        title: '',
-        message: ''
+        title: 'A New Event',
+        message: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae libero sint doloribus commodi nostrum accusantium totam autem, esse obcaecati impedit a exercitationem dolorem quaerat. Nam quibusdam rem repellendus quo atque!'
     },
     {
         input: Gif5,
-        title: '',
-        message: ''
+        title: 'A New Event',
+        message: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae libero sint doloribus commodi nostrum accusantium totam autem, esse obcaecati impedit a exercitationem dolorem quaerat. Nam quibusdam rem repellendus quo atque!'
     },
 ]

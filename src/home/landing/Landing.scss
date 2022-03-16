@@ -4,6 +4,12 @@ img{
     object-fit: contain;
 }
 
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
 .right-image {
     display: flex;
     align-self: flex-end;
