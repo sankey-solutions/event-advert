@@ -24,7 +24,7 @@ function Card({ input, index, title, message }) {
         <div className='card-container' style={{ flexDirection: (index % 2 === 0) ? 'row' : 'row-reverse' }}>
             <a.div className='card-desc' style={springTextProps}>
                 <h1>{title}</h1>
-                <p>{message}</p>
+                <p className='msg'>{message}</p>
             </a.div>
             <a.img ref={ref} src={input} style={springImageProps} />
         </div>

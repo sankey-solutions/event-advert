@@ -8,8 +8,8 @@ import Gif5 from '../../assets/Gif5.gif'
 export const pages = [
     {
         input: IntroGIF,
-        title: ['Presenting the SPECTACULAR Event - ', <strong>TECHNOTHON</strong>],
-        message: 'Let\'s build a robust solution. We all have our own suggestions, ideas, beliefs, and thoughts that merely remain in our minds, and never got a chance to implement them. So, this is an opportunity for YOU to showcase ideas and do real-life implementation projects that will enhance the process of Sankey\'s internal systems'
+        title: 'Presenting the SPECTACULAR Event',
+        message: [<strong>TECHNOTHON</strong>, ' - Let\'s build a robust solution. We all have our own suggestions, ideas, beliefs, and thoughts that merely remain in our minds, and never got a chance to implement them. So, this is an opportunity for YOU to showcase ideas and do real-life implementation projects that will enhance the process of Sankey\'s internal systems']
     },
     {
         input: Gif1,
