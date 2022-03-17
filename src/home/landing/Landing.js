@@ -33,7 +33,7 @@ function Card({ input, index, title, message }) {
 
 function Landing() {
     return (
-        <div className='container'>
+        <div className='landing-container'>
             {
                 pages.map((element, index) =>
                     <Card

@@ -9,7 +9,12 @@ export const pages = [
     {
         input: IntroGIF,
         title: 'Presenting the SPECTACULAR Event',
-        message: [<strong>TECHNOTHON</strong>, ' - Let\'s build a robust solution. We all have our own suggestions, ideas, beliefs, and thoughts that merely remain in our minds, and never got a chance to implement them. So, this is an opportunity for YOU to showcase ideas and do real-life implementation projects that will enhance the process of Sankey\'s internal systems']
+        message: [
+            <strong>TECHNOTHON</strong>, 
+            ' - Let\'s build a robust solution.',
+            <br/>,
+            ' We all have our own suggestions, ideas, beliefs, and thoughts that merely remain in our minds, and never turn into reality. Enter Technothon, an opportunity for YOU to showcase your ideas and execute real-life implementation projects that will aid in solving problems of the company.'
+        ]
     },
     {
         input: Gif1,
@@ -17,7 +22,7 @@ export const pages = [
     },
     {
         input: Gif2,
-        title: ['What ', <strong>YOU</strong>, ' will get to do in the event']
+        title: ['What ', <strong>YOU</strong>, ' need to do']
     },
     {
         input: Gif3,

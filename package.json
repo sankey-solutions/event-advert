@@ -1,6 +1,6 @@
 {
   "name": "countdown-timer",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "homepage": "https://sankey-solutions.github.io/events",
   "private": true,
   "dependencies": {
