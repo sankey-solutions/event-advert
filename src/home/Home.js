@@ -5,7 +5,7 @@ import { useCustomCountdown } from '../hooks/useCountdown';
 import './Home.scss'
 import Landing from './landing/Landing';
 
-let countDownDate = "March 17, 2022 19:30:00"
+let countDownDate = "March 17, 2022 14:07:00"
 
 export default function Home() {
     const [ days, hours, minutes, seconds, remainingTime ] = useCustomCountdown(new Date(countDownDate));
